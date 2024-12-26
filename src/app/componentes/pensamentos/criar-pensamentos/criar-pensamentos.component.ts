@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+
 @Component({
   selector: 'app-criar-pensamentos',
   standalone: true,
@@ -13,7 +14,7 @@ export class CriarPensamentosComponent {
     id: '1',
     conteudo: 'Aprendendo Angular',
     autoria: 'Dev',
-    modelo: ''
+    modelo: 'modelo1'
   }
 
   criarPensamento() {

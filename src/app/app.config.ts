@@ -6,12 +6,9 @@ import {
   provideClientHydration,
   withEventReplay,
 } from '@angular/platform-browser';
-import { provideForms } from '@angular/forms';
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-    provideForms(),
-    provideZoneChangeDetection({ eventCoalescing: true }),
+  providers: [provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideClientHydration(withEventReplay()),
   ],
