@@ -15,4 +15,12 @@ export class CriarPensamentosComponent {
     autoria: 'Dev',
     modelo: ''
   }
+
+  criarPensamento() {
+    alert("Click ok")
+  }
+
+  delPensamento() {
+    alert("Click ok ")
+  }
 }
