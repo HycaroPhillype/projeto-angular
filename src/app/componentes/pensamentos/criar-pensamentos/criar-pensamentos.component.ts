@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-
+import { FormsModule } from '@angular/forms'
 @Component({
   selector: 'app-criar-pensamentos',
   standalone: true,
-  imports: [],
+  imports: [ FormsModule ],
   templateUrl: './criar-pensamentos.component.html',
   styleUrl: './criar-pensamentos.component.css'
 })
