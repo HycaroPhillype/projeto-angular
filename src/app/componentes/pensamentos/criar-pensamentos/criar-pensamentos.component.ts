@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-criar-pensamentos',
@@ -17,11 +18,11 @@ export class CriarPensamentosComponent {
     modelo: 'modelo1'
   }
 
-  criarPensamento() {
-    alert("Click ok")
-  }
+  constructor(private router: Router) {}
 
-  delPensamento() {
-    alert("Click ok ")
+  navegarParaListarPensamento() {
+    this.router.navigate(['/listarPensamento'])
+
   }
 }
+
