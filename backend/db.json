@@ -1,0 +1,25 @@
+{
+    "pensamentos": [
+        {
+            "id": 1,
+            "conteudo": "Que bom que você veio",
+            "autoria": "Edimara",
+            "modelo": "modelo1"
+
+        },
+        {
+            "id": 1,
+            "conteudo": "Estudando Angular",
+            "autoria": "Hycaro",
+            "modelo": "modelo2"
+
+        },
+        {
+            "id": 1,
+            "conteudo": "Quero trabalhar com progamação ja em 2025",
+            "autoria": "Pato",
+            "modelo": "modelo3"
+
+        }
+    ]
+}
