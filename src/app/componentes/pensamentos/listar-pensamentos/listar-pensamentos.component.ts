@@ -12,16 +12,16 @@ import { CommonModule } from '@angular/common';
 export class ListarPensamentosComponent {
   
   listarPensamento = [
-    {
-      conteudo: "Comonicando-se com componente filho",
-      autoria: "Componente pai",
-      modelo: "modelo3"
-    },
-    {
-      conteudo: "Minha propriedade é decorada com @Input()",
-      autoria: "Componente filho",
-      modelo: "modelo2"
-    }
+    // {
+    //   conteudo: "Comonicando-se com componente filho",
+    //   autoria: "Componente pai",
+    //   modelo: "modelo3"
+    // },
+    // {
+    //   conteudo: "Minha propriedade é decorada com @Input()",
+    //   autoria: "Componente filho",
+    //   modelo: "modelo2"
+    // }
   ];
 
   constructor(private router: Router) {}
