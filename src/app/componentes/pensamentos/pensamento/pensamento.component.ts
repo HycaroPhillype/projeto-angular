@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Pensamento } from '../pensamento';
 @Component({
   selector: 'app-pensamento',
   imports: [ CommonModule ],
@@ -8,7 +9,8 @@ import { CommonModule } from '@angular/common';
 })
 export class PensamentoComponent {
 
-  @Input() pensamento = {
+  @Input() pensamento: Pensamento = {
+    id: 0,
     conteudo: " Eu sou foda",
     autoria: "Hycaro",
     modelo: "modelo3"
